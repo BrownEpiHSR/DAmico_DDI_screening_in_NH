@@ -1,6 +1,5 @@
 /*
-OVERALL PROJECT: Feasibility of applying pharmacoepidemiologic drug-drug interaction screening 
-				 methods to a population of nursing home residents: An application to clopidogrel
+OVERALL PROJECT:  Drug-drug interaction signals for major bleeding in nursing home residents: high-throughput screening of clopidogrel and oral anticoagulants
 
 				DESCRIPTION: 
 				Screen potential precipitant drugs for DDIs with clopidogrel resulting in major bleed and fall related injury (FRI)
@@ -286,6 +285,7 @@ proc export
 	outfile="P:\nhddi\a5d\Aim1_Screening\Antiplatelets\Output\7_SCCS_models\sumstats_SAS_simplest_models_fri_&sysdate..csv" 
 	replace;
 run;
+
 
 
 
