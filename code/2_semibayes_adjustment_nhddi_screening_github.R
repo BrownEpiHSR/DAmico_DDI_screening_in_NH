@@ -1,5 +1,5 @@
-# OVERALL PROJECT: Feasibility of applying pharmacoepidemiologic drug-drug interaction screening 
-# methods to a population of nursing home residents: An application to clopidogrel
+# OVERALL PROJECT:  Drug-drug interaction signals for major bleeding in nursing home 
+#   residents: high-throughput screening of clopidogrel and oral anticoagulants
 # 
 #   DESCRIPTION: 
 #   Screen potential precipitant drugs for DDIs with clopidogrel resulting in 
@@ -100,4 +100,5 @@ SemiBayes <- function(vart, infile, outfile){
 
 SemiBayes(0.25, "sumstats_SAS_simplest_models_mb_02OCT24.csv", "sumstats_SAS_simplest_models_mb_28FEB25_adj_0p25.csv")
 SemiBayes(0.25, "sumstats_SAS_simplest_models_fri_02OCT24.csv", "sumstats_SAS_simplest_models_fri_28FEB25_adj_0p25.csv")
+
 
