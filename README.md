@@ -1,5 +1,5 @@
 # Description
-This repository contains data documentation and code for the analysis in the manuscript titled "Feasibility of applying pharmacoepidemiologic drug-drug interaction screening methods to nursing home residents: An application to clopidogrel."
+This repository contains data documentation and code for the analysis in the manuscript titled "Drug-drug interaction signals for major bleeding in nursing home residents: high-throughput screening of clopidogrel and oral anticoagulants."
 ## Repository Contents
 - `data_documentation/` - Contains files describing the data sources, key variables, and broad cohort creation steps, and technical notes on methods.>.
 - `code/` - The programs used for data analysis.
@@ -17,5 +17,5 @@ The `code/` directory contains the following programs:
 Programs were run in sequence to produce the study findings.
 Cohort creation programs have not been included, though a broad description of these steps can be found in the data documentation section. 
 
-Additional information (and code) for identifying drug-observable time within the nursing home population can be found in the upcoming publication from Harris et al. "Identifying observable medication time for US nursing home residents using Medicare claims: A tutorial and case study"
+Additional information (and code) for identifying drug-observable time within the nursing home population can be found in the publication from Harris et al. "Identifying observable medication use time in administrative databases: a tutorial using nursing home residents" https://pmc.ncbi.nlm.nih.gov/articles/PMC12809372/  doi: 10.1093/aje/kwaf227
 
